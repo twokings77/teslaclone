@@ -1,0 +1,218 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Gotham', sans-serif;
+    scroll-behavior: smooth;
+
+    
+}
+/* .nav-container{
+    padding-right: 0px!;
+    padding-left: 0px!;
+} */
+.tds-icon{
+    width: 120px;
+}
+
+/* .menu{
+    text-align: right;
+    color: black;
+    list-style: none;
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 7px;
+    width: 10px;
+    
+
+
+} */
+
+#themenu{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 401;
+    font-size: 14px;
+    margin: 5px;
+    background-color: transparent;
+    font-family: 'Gotham', sans-serif;
+
+
+    
+}
+/* .menubtn :hover{
+    border: 1px solid;
+    color: red;
+
+} */
+
+.navbar .navbar-content-container .menu-btn-container .menubtn{
+    
+    
+}
+/* .navbar .nav-content-container button{
+    font-weight: 401px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    font-weight: 401;
+    text-align: center;
+
+} */
+
+
+
+@media(min-width: 768px){
+    .menu{
+        display: block;
+    }
+}
+
+#model-three{
+    /* background-color: aquamarine; */
+    background-image: url(/imgts/models\ 3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#model-y{
+    background-image: url(/imgts/blue2.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+#model-x{
+    background-image: url(/imgts/Homepage-Model-X-Desktop-LHD.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+#model-s{
+    background-image: url(/imgts/Homepage-Model-S-Desktop-LHD.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+#accessories{
+    background-image: url(/imgts/access.jpeg);
+    background-size: cover;
+    background-position: center center;
+    display: grid;
+    grid-template-rows:16fr 3fr auto  ;
+}
+#solar-roof{
+    background-image: url(/imgts/Homepage-SolarRoof-Desktop-Global.webp);
+    background-size: cover;
+    background-position: center center;
+}
+#solar-pannels{
+    background-image: url(/imgts/_25-HP-SolarPanels-D.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.page{
+    height: 100vh;
+    /* width: 100%; */
+    text-align: center;
+    font-family: 'Gotham', sans-serif;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    font-family: 'Gotham', sans-serif;
+
+
+}
+.page a{
+    text-decoration: underline;
+    color: inherit;
+}
+
+
+/* h1{position: relative;
+    top: calc( 18vh);
+    font-size: 40px;
+
+
+    
+}
+p{position: relative;
+    top: calc( 17vh);
+
+    
+}
+.btn-container{
+    position: relative;
+    top: calc(100% - 33%);
+    
+
+} */
+.butnbig {
+    width: 260px;
+    height: 39px;
+    margin: 5px;
+    text-align: center;
+    /* font-size: bold; */
+    font-family: 'M PLUS 1', sans-serif;
+
+    
+    
+}
+
+/* .container-fluid.page .btn-container.butnbig{
+} */
+#touchless-delivery{
+    border-bottom: 1px solid;
+    padding: 2px;
+}
+#touchless-delivery :hover{
+    color: black;
+}
+.fixed-top{
+    background-color: transparent;
+}
+
+
+.navbar-light .navbar-nav  .nav-link{
+    margin-right: 20px;
+    font-size: 14px;
+    padding: 4px 8px;
+    font-family: 'Gotham', sans-serif;
+
+
+}
+
+.navbar-light .navbar-nav .nav-item a :hover{
+    
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-item a{
+    /* padding: 4px 8px; */
+    color: rgb(14, 13, 13);
+    font-weight: 401;
+}
+
+
+
+
+#navbarNav{
+   justify-content: center;
+   padding: 0px 8px;
+   margin-top: 7px;
+   text-align: center;
+}
+#shop {
+    display: flex;
+    position: absolute;
+    right: calc(12%);
+    
+}
+
+@media only screen and (max-width:1199px) {
+    .menu{
+        
+    }
+}
