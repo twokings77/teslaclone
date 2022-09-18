@@ -7,6 +7,16 @@ html,body{
 
     
 }
+.close-btn {
+    font-size: 20px;
+        position: absolute;
+        top: 3%;
+        right: -7%;
+        height: 40px;
+        width: 20%;
+        color: black;
+        font-weight: ;
+}
 /* .nav-container{
     padding-right: 0px!;
     padding-left: 0px!;
@@ -36,16 +46,98 @@ html,body{
     margin: 5px;
     background-color: transparent;
     font-family: 'Gotham', sans-serif;
+    border: 1px ;
 
 
     
 }
-/* .menubtn :hover{
-    border: 1px solid;
-    color: red;
+.menubtn :hover{
+    background: #df3e3e1c!;
+}
 
-} */
+.menuslide{
+    width: 315px;
+    background-color: white;
+    display: block;
+    height: 100vh;
+    position: absolute;
+    right: 0%;
+    z-index: 2000;
+    position: fixed;
+    /* padding: 10px; */
+    text-decoration: none;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.5s cubic-bezier(0.5,0,0,0.75);
 
+
+}
+.blur{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1990;
+    background: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(.3rem);
+}
+.blur.is--active{
+    display: block;
+}
+
+.menuslide.is--active{
+    transform: translate(0);
+}
+
+.menuslide ul{
+    list-style: none;
+    /* margin-top: 93px; */
+    font-weight: 401px;
+    padding-top: 70px;
+
+
+}
+
+.menuslide ul li{
+    margin-left: 10px;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 801px;
+    margin-top: 20px;
+    font-size: 14px;
+
+
+}
+
+.english{
+    margin-top: 20px;
+    margin-left: 75px;
+    color: black;
+    padding-bottom: 70px;
+
+}
+.english a, .usa{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 801px;
+
+}
+
+.english a :hover{
+    color: black!;
+    
+}
+
+.globe{
+    
+    margin-top: 0px;
+    margin-left: 45px;
+    font-size: 25px;
+
+
+}
 .navbar .navbar-content-container .menu-btn-container .menubtn{
     
     
@@ -68,6 +160,12 @@ html,body{
     .menu{
         display: block;
     }
+}
+
+
+.navbar .nav-content-container #themenu :hover{
+    color: red!;
+
 }
 
 #model-three{
@@ -97,7 +195,7 @@ html,body{
     background-size: cover;
     background-position: center center;
     display: grid;
-    grid-template-rows:16fr 3fr auto  ;
+    grid-template-rows:17fr 3fr auto  ;
 }
 #solar-roof{
     background-image: url(/imgts/Homepage-SolarRoof-Desktop-Global.webp);
@@ -154,6 +252,7 @@ p{position: relative;
     text-align: center;
     /* font-size: bold; */
     font-family: 'M PLUS 1', sans-serif;
+    font-weight: bold;
 
     
     
@@ -170,6 +269,7 @@ p{position: relative;
 }
 .fixed-top{
     background-color: transparent;
+    z-index: 1;
 }
 
 
@@ -209,6 +309,20 @@ p{position: relative;
     position: absolute;
     right: calc(12%);
     
+    
+}
+
+.foot{
+    /* display: grid; */
+    /* grid-template-rows:19fr 1fr 1fr ; */
+    text-align: center;
+    font-family: 'Gotham', sans-serif;
+    font-size: 12px;
+
+}
+
+.foottext{
+    margin: 7px;
 }
 
 @media only screen and (max-width:1199px) {
